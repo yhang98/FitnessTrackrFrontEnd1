@@ -1,0 +1,24 @@
+.individualRoutinesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: fit-content;
+    gap: 5vw;
+    margin: 3vh 3vw 5vw 3vw;
+}
+
+.individualRoutines {
+    border: 3px solid #333;
+    padding: 2vw;
+    line-height: 4vh;
+    box-shadow: 5px 3px 5px rgb(70, 70, 70);
+}
+
+.individualRoutines.individualRoutines:hover {
+    background-color: rgba(253, 136, 40, 0.2);
+}
+
+.userButtons {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}

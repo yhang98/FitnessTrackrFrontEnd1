@@ -1,0 +1,15 @@
+.registerLoginForm {
+    display: grid;
+    grid-template-rows: repeat 1fr;
+    justify-items: center;
+    margin-bottom: 3vh;
+}
+
+button {
+    margin-top: 3vh;
+}
+
+.registerLink {
+    text-align: center;
+    margin-bottom: 3vh;
+}

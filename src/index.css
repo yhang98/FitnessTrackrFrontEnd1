@@ -1,0 +1,82 @@
+html {
+    font-family: 'Georgia, serif', cursive;
+}
+
+body {
+    margin: 0 0;
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navigation {
+    background-image: linear-gradient(rgba(161, 151, 151, 0.95), rgba(229, 164, 52, 0.4)),
+    url("/public/images/fitness.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.Logo {
+    padding: 12vh 0;
+    font-size: 8vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav a {
+    padding: fit-content;
+    margin: 0 2vw 2vw 2vw;
+    border: rgb(137, 177, 16) 1px solid;
+    font-size: 2vw;
+    color: rgb(186, 243, 153);
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px 3px #333;
+    background-color: rgba(16, 16, 15, 0.95);
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw auto 15vw 15vw;
+    padding-top: 5vh;
+    background-color: whitesmoke
+}
+
+nav a:hover {
+    animation: pushUps 8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.pageName {
+    margin: 5vh 0 3vh 0;
+    text-align: center;
+    color: rgba(65, 40, 253, 0.95)
+}
+
+.facilitate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    justify-items: center;
+    margin: 0 3vw 0 3vw;
+    padding-bottom: 2vh;
+}
+
+.createLink {
+    color: rgb(22, 19, 19);
+    text-decoration: none;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 3px #333;
+    padding: 2vw;
+}
+
+.createLink.createLink:hover {
+    background-color: rgba(64, 59, 54, 0.2);
+    animation: sideToSide 8s;
+    animation-iteration-count: infinite;
+}
+
