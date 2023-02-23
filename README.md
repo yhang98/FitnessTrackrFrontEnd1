@@ -10,12 +10,6 @@
 - npm install
 - npm run start
 
-# Credits
-Felix Cadiz
-
-https://github.com/Felix-Cadiz
-
-https://www.linkedin.com/in/felix-cadiz/
 
 # License
 
