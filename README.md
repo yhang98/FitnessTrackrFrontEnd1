@@ -1,9 +1,5 @@
 # FitnessTrackr-FrontEnd
-Deploy - https://admiring-bhaskara-04c615.netlify.app/
 
-A commuinity fitness application that allows users to create, share, edit, and assemble their favorite fitness routines and activities.
-
-# Technologies
 - React
 - Javascript
 - CSS 3
